@@ -1,11 +1,17 @@
+import Navbar from './components/Navbar';
 import Hero from "./components/container/HeroSection";
+import CompanyLogos from './components/CompanyLogos';
+import Stats from './components/Stats';
+import Process from './components/Process';
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl">code here</h1>
-      {/* example */}
+      <Navbar />
       <Hero />
+      <CompanyLogos />
+      <Stats />
+      <Process />
     </>
   );
 }
